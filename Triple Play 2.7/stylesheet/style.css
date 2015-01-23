@@ -1,0 +1,72 @@
+body {
+	padding: 2%;
+	padding-bottom: 50px;
+	background-image: url("../images/grey_wash_wall.png");
+	color: white;
+}
+
+button {
+	width: 150px;
+	height: 50px;
+	bottom: 0px;
+	right: 0px;
+	position: fixed;
+	font-size: 200%;
+	border: 3px solid white;
+	background-color: black;
+	color: #39B7CD;
+	outline: none;
+	z-index: 1;
+}
+
+#title {
+	color: #39B7CD;
+}
+
+.headers {
+	color: #0EBFE9;
+}
+
+.brand {
+	font-size: 250%;
+}
+
+.navbar {
+	background-color: black;
+	font-size: 150%;
+	border: 3px solid white;
+}
+
+.navbar-nav > li > a {
+	padding-top:5px !important; 
+	padding-bottom:5px !important;
+}
+
+.navbar {
+	min-height:30px !important
+}
+
+.hidden-xs {
+	font-size: 150%;
+}
+
+hr {
+	border: 0;
+	width: 50%;
+	background-color: black;
+	height: 3px;
+	margin-left: 0;
+}
+
+.foodItem {
+	font-weight: bold;
+	font-size: 125%;
+}
+
+#menuHR {
+	background-color: gray;
+	height: 1px;
+	margin-left: 0;
+	margin-right: 0;
+	width: 90%;
+}
